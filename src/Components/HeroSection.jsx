@@ -104,7 +104,7 @@ const HeroSection = () => {
         </motion.div>
         {/* ---------------------vw > 768px----------------------------------------------------- */}
 
-        <div className="hidden md:block w-full">
+        <div className="hidden md:block w-full mt-12">
           <motion.div
             ref={ref}
             className={`hidden md:flex gap-[1.75rem] pb-12 md:pb-14 w-full justify-center`}
