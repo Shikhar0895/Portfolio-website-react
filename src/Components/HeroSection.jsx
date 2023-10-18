@@ -32,7 +32,7 @@ const HeroSection = () => {
           transition={{ type: "spring", stiffness: 100, delay: 0.3 }}
         >
           <div
-            className="flex relative justify-center rounded-full bg-[#f4ae2c]"
+            className="flex relative justify-center rounded-full bg-[#f4ae2c] hover:shadow-lg hover:shadow-aqua hover:scale-105 transition"
             id="imgWrapper"
           >
             <img
@@ -59,7 +59,7 @@ const HeroSection = () => {
             {/*
              */}
             <span className="font-light text-lg">
-              Front-End Developer | Ocassional Designer{" "}
+              Front-End Developer | Designer{" "}
               <span className="text-hotmag">.</span>
             </span>
             {/*  */}
@@ -126,7 +126,7 @@ const HeroSection = () => {
               </p>
 
               <p className="font-light text-lg mb-8 after:content-['.'] after:text-hotmag">
-                Frontend Developer & ocassional designer
+                Frontend Developer & Designer
               </p>
 
               <div className="flex items-center gap-6 flex-wrap">
@@ -175,7 +175,7 @@ const HeroSection = () => {
               id="imgWrapper"
             >
               <img
-                className="rounded-xl object-cover drop-shadow-lg hover:filter-[sepia]"
+                className="rounded-xl object-cover"
                 loading="lazy"
                 src={profilePic}
                 alt="profile"

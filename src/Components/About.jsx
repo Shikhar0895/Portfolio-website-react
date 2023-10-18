@@ -34,7 +34,7 @@ const About = () => {
     >
       <SectionHeadingsm>AboutMe</SectionHeadingsm>
       <SectionHeadingmd>About Me</SectionHeadingmd>
-      <div className="flex flex-col justify-center items-center text-aqua w-full text-lg gap-7 py-7 md:pb-0">
+      <div className="flex flex-col justify-center items-center text-aqua w-full text-lg gap-7 pt-7 pb-14 md:pb-0">
         <div className="leftSection text-lg">
           <p className="leading-8 text-center">
             Greetings! I'm Shikhar, a passionate frontend developer with a
@@ -70,7 +70,7 @@ const About = () => {
         </p>
         <motion.section
           ref={ref}
-          className={`w-full /*scroll-mt-20*/`}
+          className={`w-full`}
           data-section-id="About"
           initial={{ opacity: 0, y: 100 }}
           // animate={{ opacity: 1, y: 0 }}

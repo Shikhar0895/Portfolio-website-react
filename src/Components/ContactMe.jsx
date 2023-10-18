@@ -109,7 +109,7 @@ export default function ContactMe() {
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="Your good name"
+                  placeholder="Your name"
                   className="py-4 px-6 placeholder:text-base text-black rounded-lg outline-none border-none font-medium"
                 />
               </label>

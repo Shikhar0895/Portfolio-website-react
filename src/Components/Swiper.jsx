@@ -21,7 +21,7 @@ export default function SwiperScroll() {
     color: "black",
     borderRadius: "16px",
     minHeight: "248px",
-    minWidth: "320px",
+    minWidth: "100%",
     maxHeight: "356px",
     maxWidth: "956px",
   };

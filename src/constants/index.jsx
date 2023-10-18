@@ -86,7 +86,7 @@ const ProjectDetails = [
       "https://github.com/Shikhar0895/Tic-Tac-Toe/tree/master/live%20vanilla%20JS",
     extLink: "https://tic-tic-toe-test.vercel.app/",
     desc: "A simple tic-tac-toe app reinforcing some key learnings like DOM manipulation , MVC architecture, and some CSS transitions",
-    techUsed: ["HTML", "CSS", "JavaScript"],
+    techUsed: ["HTML", "CSS", "JAVASCRIPT"],
   },
   {
     name: "foodDeliveryApp",
@@ -94,7 +94,7 @@ const ProjectDetails = [
     gitLink: "foodeliveryURL",
     extLink: "foodDeliveryApp",
     desc: "A react based food delivery App clone illustrates product listing, search, adding to cart flow, working with live API etc. ",
-    techUsed: ["React", "TailwindCSS", "Redux"],
+    techUsed: ["REACT", "TAILWINDCSS", "REDUX"],
   },
   {
     name: "AdoptPet",

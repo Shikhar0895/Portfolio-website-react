@@ -23,7 +23,7 @@ const ExpCardWrapper = () => {
         <span className="text-lg text-aqua">{duration}</span>
       </div>
       <div
-        className="w-full mb-3 flex justify-between text-aqua"
+        className="w-full mb-3 gap-9 flex justify-between text-aqua"
         id="Designation"
       >
         <span className="text-lg">{designation}</span>
