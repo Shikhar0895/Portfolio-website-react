@@ -12,7 +12,7 @@ import Art07 from "../assets/Art07.jpeg";
 import Art08 from "../assets/Art08.jpg";
 import Art09 from "../assets/Art09.jpg";
 import Art12 from "../assets/Art12.jpg";
-import t3 from "../assets/tic-tac-toe.png";
+import t3 from "../assets/t3.png";
 
 export const artworks = [
   Art01,

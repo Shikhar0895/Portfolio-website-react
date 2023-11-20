@@ -70,7 +70,7 @@ const About = () => {
         </p>
         <motion.section
           ref={ref}
-          className={`w-full`}
+          className="w-[120%] h-[400px] bg-black flex justify-center items-center"
           data-section-id="About"
           initial={{ opacity: 0, y: 100 }}
           // animate={{ opacity: 1, y: 0 }}

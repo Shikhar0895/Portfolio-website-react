@@ -80,7 +80,7 @@ const Techtabs = [
 
 const ProjectDetails = [
   {
-    name: "T3",
+    name: "Tic-Tac-Toe",
     image: t3,
     gitLink:
       "https://github.com/Shikhar0895/Tic-Tac-Toe/tree/master/live%20vanilla%20JS",
@@ -89,8 +89,8 @@ const ProjectDetails = [
     techUsed: ["HTML", "CSS", "JAVASCRIPT"],
   },
   {
-    name: "foodDeliveryApp",
-    image: t3,
+    name: "Food Delivery App",
+    image: null,
     gitLink: "foodeliveryURL",
     extLink: "foodDeliveryApp",
     desc: "A react based food delivery App clone illustrates product listing, search, adding to cart flow, working with live API etc. ",
@@ -98,7 +98,7 @@ const ProjectDetails = [
   },
   {
     name: "AdoptPet",
-    image: t3,
+    image: null,
     gitLink: "https://github.com/Shikhar0895/Adopt_Pet.git",
     extLink: "https://shikhar0895.github.io/Adopt_Pet/",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore et quo minus",

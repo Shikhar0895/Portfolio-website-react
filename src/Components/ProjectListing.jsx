@@ -12,8 +12,9 @@ import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "../context/Activesectioncontext";
 import useInViewHook from "../utils/InViewHook";
 import { ProjectDetails } from "../constants";
+import { t3 } from "../assets";
 
-const ProjectCard = ({ image, gitLink, extLink, desc, techUsed }) => {
+const ProjectCard = ({ image, gitLink, extLink, desc, techUsed, name }) => {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -34,12 +35,19 @@ const ProjectCard = ({ image, gitLink, extLink, desc, techUsed }) => {
       className={`min-w-[256px] w-[70%] lg:w-full max-w-[456px] bg-opacity-0 rounded-lg 
       flex flex-wrap flex-col justify-evenly items-center`}
     >
-      <div
-        className="w-full h-[230px] bg-white rounded-xl"
-        id="imgWrapper"
-      ></div>
-      <div className=" flex flex-col gap-4 mt-5 w-full" id="Description">
+      <div className="w-full h-[230px] rounded-xl" id="imgWrapper">
+        {/* <a href={extLink} target="blank" rel="noreferrer noopener"> */}
+        <img
+          src={image}
+          alt="website_image"
+          className="w-[inherit] h-[inherit] object-cover rounded-xl hover:shadow-aqua hover:shadow-sm  transition"
+        />
+        {/* </a> */}
+      </div>
+
+      <div className=" flex flex-col gap-4 mt-[30px] w-full" id="Description">
         <div className="flex gap-5 items-center " id="cardTitlebar">
+          <h2 className="text-white font-bold text-lg">{name}</h2>
           <a
             href={gitLink}
             target="blank"
@@ -114,7 +122,6 @@ export default function ProjectListing() {
         id="ProjectCardWrapper"
       >
         {ProjectDetails.map((item) => {
-          // const {name, image, gitLink, extLink,techUsed} = item
           return <ProjectCard key={item.name} {...item} />;
         })}
         {/* <ProjectCard />
