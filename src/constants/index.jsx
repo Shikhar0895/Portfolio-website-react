@@ -101,8 +101,8 @@ const ProjectDetails = [
     image: adoptPet,
     gitLink: "https://github.com/Shikhar0895/Adopt_Pet.git",
     extLink: "https://shikhar0895.github.io/Adopt_Pet/",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore et quo minus",
-    techUsed: ["1", "2", "3"],
+    desc: "a simple react js powered SPA leveraging use of react query, react router, higher order components, working with live apis etc",
+    techUsed: ["REACT", "REACT ROUTER", "REACT QUERY"],
   },
 ];
 
