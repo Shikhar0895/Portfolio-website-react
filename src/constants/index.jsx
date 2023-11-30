@@ -1,6 +1,6 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6";
 
-import { t3 } from "../assets";
+import { t3, adoptPet } from "../assets";
 
 const sidebarLinks = [
   {
@@ -98,7 +98,7 @@ const ProjectDetails = [
   },
   {
     name: "AdoptPet",
-    image: null,
+    image: adoptPet,
     gitLink: "https://github.com/Shikhar0895/Adopt_Pet.git",
     extLink: "https://shikhar0895.github.io/Adopt_Pet/",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore et quo minus",

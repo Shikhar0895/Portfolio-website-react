@@ -13,6 +13,7 @@ import Art08 from "../assets/Art08.jpg";
 import Art09 from "../assets/Art09.jpg";
 import Art12 from "../assets/Art12.jpg";
 import t3 from "../assets/t3.png";
+import adoptPet from "../assets/adoptpet.png";
 
 export const artworks = [
   Art01,
@@ -27,4 +28,4 @@ export const artworks = [
   Art12,
 ];
 
-export { profilePic, siteLogo, CV, profileMob, t3 };
+export { profilePic, siteLogo, CV, profileMob, t3, adoptPet };
